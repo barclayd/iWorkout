@@ -12,7 +12,7 @@ struct iWorkoutApp: App {
     @SceneBuilder var body: some Scene {
         WindowGroup {
             NavigationView {
-                ContentView()
+                StartView()
             }
         }
 

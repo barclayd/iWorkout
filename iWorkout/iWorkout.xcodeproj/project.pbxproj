@@ -11,7 +11,7 @@
 		357A73A1267941ED00ED1A4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 357A73A0267941ED00ED1A4F /* Assets.xcassets */; };
 		357A73A7267941EE00ED1A4F /* iWorkout WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 357A73A6267941EE00ED1A4F /* iWorkout WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		357A73AC267941EE00ED1A4F /* iWorkoutApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357A73AB267941EE00ED1A4F /* iWorkoutApp.swift */; };
-		357A73AE267941EE00ED1A4F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357A73AD267941EE00ED1A4F /* ContentView.swift */; };
+		357A73AE267941EE00ED1A4F /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357A73AD267941EE00ED1A4F /* StartView.swift */; };
 		357A73B0267941EE00ED1A4F /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357A73AF267941EE00ED1A4F /* NotificationController.swift */; };
 		357A73B2267941EE00ED1A4F /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357A73B1267941EE00ED1A4F /* NotificationView.swift */; };
 		357A73B4267941EE00ED1A4F /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357A73B3267941EE00ED1A4F /* ComplicationController.swift */; };
@@ -19,6 +19,7 @@
 		357A73B9267941EF00ED1A4F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 357A73B8267941EF00ED1A4F /* Preview Assets.xcassets */; };
 		357A73C5267941EF00ED1A4F /* iWorkoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357A73C4267941EF00ED1A4F /* iWorkoutTests.swift */; };
 		357A73CF267941EF00ED1A4F /* iWorkoutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357A73CE267941EF00ED1A4F /* iWorkoutUITests.swift */; };
+		357A73E42679478800ED1A4F /* SessionPagingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357A73E32679478800ED1A4F /* SessionPagingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,7 +84,7 @@
 		357A73A0267941ED00ED1A4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		357A73A6267941EE00ED1A4F /* iWorkout WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "iWorkout WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		357A73AB267941EE00ED1A4F /* iWorkoutApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iWorkoutApp.swift; sourceTree = "<group>"; };
-		357A73AD267941EE00ED1A4F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		357A73AD267941EE00ED1A4F /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
 		357A73AF267941EE00ED1A4F /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		357A73B1267941EE00ED1A4F /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
 		357A73B3267941EE00ED1A4F /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
@@ -95,6 +96,7 @@
 		357A73C4267941EF00ED1A4F /* iWorkoutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iWorkoutTests.swift; sourceTree = "<group>"; };
 		357A73CA267941EF00ED1A4F /* iWorkoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iWorkoutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		357A73CE267941EF00ED1A4F /* iWorkoutUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iWorkoutUITests.swift; sourceTree = "<group>"; };
+		357A73E32679478800ED1A4F /* SessionPagingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionPagingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,7 +159,7 @@
 			isa = PBXGroup;
 			children = (
 				357A73AB267941EE00ED1A4F /* iWorkoutApp.swift */,
-				357A73AD267941EE00ED1A4F /* ContentView.swift */,
+				357A73AD267941EE00ED1A4F /* StartView.swift */,
 				357A73AF267941EE00ED1A4F /* NotificationController.swift */,
 				357A73B1267941EE00ED1A4F /* NotificationView.swift */,
 				357A73B3267941EE00ED1A4F /* ComplicationController.swift */,
@@ -165,6 +167,7 @@
 				357A73BA267941EF00ED1A4F /* Info.plist */,
 				357A73BB267941EF00ED1A4F /* PushNotificationPayload.apns */,
 				357A73B7267941EF00ED1A4F /* Preview Content */,
+				357A73E32679478800ED1A4F /* SessionPagingView.swift */,
 			);
 			path = "iWorkout WatchKit Extension";
 			sourceTree = "<group>";
@@ -381,10 +384,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				357A73B0267941EE00ED1A4F /* NotificationController.swift in Sources */,
-				357A73AE267941EE00ED1A4F /* ContentView.swift in Sources */,
+				357A73AE267941EE00ED1A4F /* StartView.swift in Sources */,
 				357A73B4267941EE00ED1A4F /* ComplicationController.swift in Sources */,
 				357A73AC267941EE00ED1A4F /* iWorkoutApp.swift in Sources */,
 				357A73B2267941EE00ED1A4F /* NotificationView.swift in Sources */,
+				357A73E42679478800ED1A4F /* SessionPagingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
