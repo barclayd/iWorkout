@@ -20,6 +20,7 @@
 		357A73C5267941EF00ED1A4F /* iWorkoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357A73C4267941EF00ED1A4F /* iWorkoutTests.swift */; };
 		357A73CF267941EF00ED1A4F /* iWorkoutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357A73CE267941EF00ED1A4F /* iWorkoutUITests.swift */; };
 		357A73E42679478800ED1A4F /* SessionPagingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357A73E32679478800ED1A4F /* SessionPagingView.swift */; };
+		357A73E7267948DD00ED1A4F /* MetricsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357A73E6267948DD00ED1A4F /* MetricsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,6 +98,7 @@
 		357A73CA267941EF00ED1A4F /* iWorkoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iWorkoutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		357A73CE267941EF00ED1A4F /* iWorkoutUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iWorkoutUITests.swift; sourceTree = "<group>"; };
 		357A73E32679478800ED1A4F /* SessionPagingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionPagingView.swift; sourceTree = "<group>"; };
+		357A73E6267948DD00ED1A4F /* MetricsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetricsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,16 +160,14 @@
 		357A73AA267941EE00ED1A4F /* iWorkout WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				357A73E5267948BC00ED1A4F /* Views */,
 				357A73AB267941EE00ED1A4F /* iWorkoutApp.swift */,
-				357A73AD267941EE00ED1A4F /* StartView.swift */,
 				357A73AF267941EE00ED1A4F /* NotificationController.swift */,
-				357A73B1267941EE00ED1A4F /* NotificationView.swift */,
 				357A73B3267941EE00ED1A4F /* ComplicationController.swift */,
 				357A73B5267941EF00ED1A4F /* Assets.xcassets */,
 				357A73BA267941EF00ED1A4F /* Info.plist */,
 				357A73BB267941EF00ED1A4F /* PushNotificationPayload.apns */,
 				357A73B7267941EF00ED1A4F /* Preview Content */,
-				357A73E32679478800ED1A4F /* SessionPagingView.swift */,
 			);
 			path = "iWorkout WatchKit Extension";
 			sourceTree = "<group>";
@@ -194,6 +194,17 @@
 				357A73CE267941EF00ED1A4F /* iWorkoutUITests.swift */,
 			);
 			path = iWorkoutUITests;
+			sourceTree = "<group>";
+		};
+		357A73E5267948BC00ED1A4F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				357A73AD267941EE00ED1A4F /* StartView.swift */,
+				357A73B1267941EE00ED1A4F /* NotificationView.swift */,
+				357A73E32679478800ED1A4F /* SessionPagingView.swift */,
+				357A73E6267948DD00ED1A4F /* MetricsView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -384,6 +395,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				357A73B0267941EE00ED1A4F /* NotificationController.swift in Sources */,
+				357A73E7267948DD00ED1A4F /* MetricsView.swift in Sources */,
 				357A73AE267941EE00ED1A4F /* StartView.swift in Sources */,
 				357A73B4267941EE00ED1A4F /* ComplicationController.swift in Sources */,
 				357A73AC267941EE00ED1A4F /* iWorkoutApp.swift in Sources */,
